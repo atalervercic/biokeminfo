@@ -25,7 +25,7 @@ Priporočljivo je, da si razne programe, ki jih morda potrebujete samo za test, 
 Če želite uporabljati obstoječo instalacijo JupyterLab v okviru Anaconde je morda najbolj smiselno, da si naredite virtualno okolje v Anaconda, nato pa znotraj njega nainstalirate pip (```conda install pip```) ter potrebne ostale pakete.
 
 ### Uporaba v Binderju
-Če se želimo izogniti spreminjanju naše lokalne instalacije Pythona, prav tako pa ne želimo ustvarjali lokalnih virtualnih orodij, lahko nekatere pakete uporabljamo tudi prek JupyterLaba v Binderju in sicer si jih namestimo z uporabo ```pip```. Na primer, namestitev PyMed v virtualnem okolju v Binderju dosežemo tako:
+Če se želimo izogniti spreminjanju naše lokalne instalacije Pythona, prav tako pa ne želimo ustvarjati lokalnih virtualnih orodij, lahko nekatere pakete uporabljamo tudi prek JupyterLaba v Binderju in sicer si jih namestimo z uporabo ```pip```. Na primer, namestitev PyMed v virtualnem okolju v Binderju dosežemo tako:
 ```
 !pip install pymed
 ```
@@ -43,4 +43,4 @@ Na spletu je brezplačno dostopnih veliko tečajev Pythona, prek katerih se lahk
 * [Scientific Computing](http://disi.unitn.it/~teso/courses/sciprog/index.html) - spletna stran, kjer najdete nekaj osnov i Pythona in BioPythona
 
 
-Obširen seznam tečajev najdete tudi na uradni [wiki-stran Python](https://wiki.python.org/moin/BeginnersGuide/Programmers).
+Obširen seznam tečajev najdete tudi na uradni [wiki-strani Python](https://wiki.python.org/moin/BeginnersGuide/Programmers).
