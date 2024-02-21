@@ -2,7 +2,7 @@
 
 ## Kaj je Markdown?
 
-**Markdown** je enostaven označevalni jezik (*markup language*) za oblikovanje golega besedila, ki nam omogoča, da vanj vnesemo določene "obogatitve" (npr. **odebeljen** ali *poudarjen* tekst). Pogosto se uporablja na spletnih forumih in datotekah "premeri me". Primer tovrstne datoteke je `README.md`, ki je del repozitorija, iz katerega je ustvarjena ta spletna stran. Tudi datoteka HTML, ki jo trenutno berete, je ustvarjena iz datoteke *markdown*. Ravno ta pretvorba, torej iz golega besedila v (X)HTML, je bila mišljena kot primarna uporaba *markdown*-a. Danes je na voljo kopica programov, ki omogočajo pretvorbo tudi v druge formate in pa dodatne funkcionalnosti.
+**Markdown** je enostaven označevalni jezik (*markup language*) za oblikovanje golega besedila, ki nam omogoča, da vanj vnesemo določene "obogatitve" (npr. **odebeljen** ali *poudarjen* tekst). Pogosto se uporablja na spletnih forumih in datotekah "preberi me". Primer tovrstne datoteke je `README.md`, ki je del repozitorija, iz katerega je ustvarjena ta spletna stran. Tudi datoteka HTML, ki jo trenutno berete, je ustvarjena iz datoteke *markdown*. Ravno ta pretvorba, torej iz golega besedila v (X)HTML, je bila mišljena kot primarna uporaba *markdown*-a. Danes je na voljo kopica programov, ki omogočajo pretvorbo tudi v druge formate in pa dodatne funkcionalnosti.
 
 ### Kratka zgodovina
 
@@ -19,7 +19,7 @@ Jezik Markdown je lahek tudi v smislu, da se ga je enostavno naučiti - več o t
 
 Sintaksa je zraven programa, ki golo besedilo pretvori v format HTML, ena od osnovnih komponent jezika. Opisuje, na kak način dosežemo določeno oblikovanje. Obstaja več variant sintakse, zadnja verzija **CommonMark Markdown** pa je dosegljiva [tukaj](https://spec.commonmark.org/current/). Vse to deluje (tudi) v zvezkih JupyterLab.
 
-V nadaljevanju je predstavljenih nekaj najpogostejših primerov osnovne sintakse. Pri vsakem primeru je prikazano oblikovano besedilo, spremlja pa ga surova oblika. Do slednje pridemo tako, da uporabimo t.u. **ubežne znake**, ki omogočajo, da znaki za oblikovanje niso interpretirani kot taki. Na primer, kako dosežemo, da ```*poudarjeno*``` ni prikazano kot *poudarjeno*? To je zelo enostavno - pred vsak znak, ki določa oblikovanje, damo levo poševnico (```\``` ali _backslash_). Daljše odseke, za katere ne želimo, da so pretvorjeni v HTML, lahko opišemo kot kodo (tak odsek besedila zaobjamemo z \`\`\`, ki jih postavimo pred začetek in za koncem takega odseka).
+V nadaljevanju je predstavljenih nekaj najpogostejših primerov osnovne sintakse. Pri vsakem primeru je prikazano oblikovano besedilo, spremlja pa ga surova oblika. Do slednje pridemo tako, da uporabimo t.i. **ubežne znake**, ki omogočajo, da znaki za oblikovanje niso interpretirani kot taki. Na primer, kako dosežemo, da ```*poudarjeno*``` ni prikazano kot *poudarjeno*? To je zelo enostavno - pred vsak znak, ki določa oblikovanje, damo levo poševnico (```\``` ali _backslash_). Daljše odseke, za katere ne želimo, da so pretvorjeni v HTML, lahko opišemo kot kodo (tak odsek besedila zaobjamemo z \`\`\`, ki jih postavimo pred začetek in za koncem takega odseka).
 
 
 ### Razdelki
@@ -50,8 +50,8 @@ Seznam lahko pripravimo tudi kot oštevilčen, tudi v večih nivojih:
 
 1. prva točka
 2. druga točka
-   * prva poddtočka
-   * druga poddtočka
+   * prva podtočka
+   * druga podtočka
 3. tretja točka
    * še ena podtočka
 
@@ -60,28 +60,28 @@ koda za zgornji seznam pa je:
 ```
 1. prva točka
 2. druga točka
-   * prva poddtočka
-   * druga poddtočka
+   * prva podtočka
+   * druga podtočka
 3. tretja točka
    * še ena podtočka
 ```
 
 ### Poudarjeno, odebeljeno
 
-Oblikovanje besedila kot *podarjeno*, **odebeljeno** ali ***poudarjeno in odebeljeno hkrati*** je zelo enostavno!
+Oblikovanje besedila kot *poudarjeno*, **odebeljeno** ali ***poudarjeno in odebeljeno hkrati*** je zelo enostavno!
 
 To bi v Markdown zapisali na naslednji način:
 
 ```
-Oblikovanje besedila kot *podarjeno*, **odebeljeno** ali
+Oblikovanje besedila kot *poudarjeno*, **odebeljeno** ali
 ***poudarjeno in odebeljeno hkrati*** je zelo enostavno!
 ```
 
-Namesto znaka ```*``` lahko uporabimo ```_```, končni rezultat je v obeh primerih rezultat je enak. Torej, ```_kloniranje_``` se izpiše kot _kloniranje_. Priporočljivo je, da se odločimo za eno od oblik in jo konsistentno uporabljamo.
+Namesto znaka ```*``` lahko uporabimo ```_```, končni rezultat je v obeh primerih enak. Torej, ```_kloniranje_``` se izpiše kot _kloniranje_. Priporočljivo je, da se odločimo za eno od oblik in jo konsistentno uporabljamo.
 
 ### Povezave
 
-Vstavljanje povezav je enostavno - če želimo npr. povezavo z imenom UL FKKT, ki kaže na spletno stran fakultete, torej [UL FKKT](http://www.fkkt.uni-lj.si), napištemo to takole:
+Vstavljanje povezav je enostavno - če želimo npr. povezavo z imenom UL FKKT, ki kaže na spletno stran fakultete, torej [UL FKKT](http://www.fkkt.uni-lj.si), napišemo to takole:
 ```
 [UL FKKT](http://www.fkkt.uni-lj.si)
 ```
@@ -167,7 +167,7 @@ se torej izpiše kot
 >To je citat!
 
 ## Sintaksa v tej knjigi
-Datoteke v tej knjigi, tudi besedilni odseki zvezkov JupyterLab, so napisani v razširjeni obliki **CommmonMark Markdown**, prav tako pa je uporabljena sintaksa iz bogatega [**MyST Markdown**](https://myst-parser.readthedocs.io), ki omogoča bombončke kot so stranski oblački z beležkami ipd.
+Datoteke v tej knjigi, tudi besedilni odseki zvezkov JupyterLab, so napisani v razširjeni obliki **CommmonMark Markdown**, prav tako pa je uporabljena sintaksa iz bogatega [**MyST Markdown**](https://myst-parser.readthedocs.io), ki omogoča bombončke, kot so stranski oblački z beležkami ipd.
 
 
 ##  Povezave
