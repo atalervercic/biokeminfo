@@ -34,14 +34,14 @@ Do zgoraj navedenih vprašanj se lahko dokopljemo z uporabo filtrov, ki se nahaj
 ## Naloga 2
 
 ### Uvod
-Zgornji primer je, ne glede na uporabljene filtre, primer enostavnega iskanja. Če želimo izvesti kompleksnejšo poizvedbo, jo lahko zapišemno neposredno v iskalno polje za enostavno iskanje, a moramo pri tem poznati sintakso. To si poenostavimo z uporabo naprednega iskanja - povezava [**Advanced**](https://pubmed.ncbi.nlm.nih.gov/advanced/) pod osnovnim iskalnim poljem.
+Zgornji primer je, ne glede na uporabljene filtre, primer enostavnega iskanja. Če želimo izvesti kompleksnejšo poizvedbo, jo lahko zapišemo neposredno v iskalno polje za enostavno iskanje, a moramo pri tem poznati sintakso. To si poenostavimo z uporabo naprednega iskanja - povezava [**Advanced**](https://pubmed.ncbi.nlm.nih.gov/advanced/) pod osnovnim iskalnim poljem.
 
 Graditelj naprednega iskanja (PubMed Advanced Search Builder) nam omogoča, da posameznemu iskalnemu pojmu pripišemo, kje v referenci se naj nahaja (npr. v naslovu, povzetku), določimo časovno obdobje objave ipd., vse to pa združujemo z osnovnimi operatorji [Boolove algebre](https://en.wikipedia.org/wiki/Boolean_algebra) (AND, OR, NOT).
 
 ### Vprašanja
 Vaša naloga je, da poiščete, koliko člankov ima v naslovu besedo *SARS*, bili so pa objavljeni med letoma 2009 in 2019 (vključno s celotnima omenjenima letoma). Koliko pa je bilo takih člankov med letoma 2020 (od 1. januarja) pa do danes?
 
-Zanima nas še, koliko od člankov, ki ima v naslovu *SARS*, ima v naslovu in/ali povzetku še besedo *cats* (mačke).
+Zanima nas še, koliko od člankov, ki imajo v naslovu *SARS*, ima v naslovu in/ali povzetku še besedo *cats* (mačke).
 
 ### Razlaga
 Opazili boste, da ko gradite kompleksno iskanje se vam le-to z ustrezno sintakso zapisuje v iskalno škatlo (*Query box*) in ob sprožitvi iskanja se vsebina slednjega pojavi v polju za enostavno iskanje. Tako vidite, da bi dejansko lahko tako iskanje izvršili sami, če bi poznali sintakso. Orodje za gradnjo kompleksnega iskanja ima še eno uporabnost - z njim si lahko pomagamo zgraditi iskanja prek programskega dostopa.
