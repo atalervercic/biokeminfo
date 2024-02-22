@@ -89,7 +89,7 @@ Vstavljanje povezav je enostavno - če želimo npr. povezavo z imenom UL FKKT, k
 ### Slike
 
 Slike enostavno prikažemo tako:
-```![logo](https://mpavsic.github.io/biokeminfo/_static/logo.png```
+```![logo](https://mpavsic.github.io/biokeminfo/_static/logo.png)```
 
 Zgornja vrstica nam da:
 
