@@ -16,7 +16,7 @@ V zbirki GenBank izvedite iskanja, kjer poiščete spodaj navedene zapise (vsaka
 * **zaporedje mRNA za mišji lizocim 1**, ki vsebuje celotno kodirajočo regijo
   * vprašanje 1: Iz kolikih eksonov je sestavljen zapis?
   * vprašanje 2: Kateri nukleotid je najpogostejši na koncu 3'-neprevedene regije mRNA? Je to pričakovano?
-* **zaporedje mRNA za človeški protein p53** in sicer táko, ki vsebuje celotno kodirajočo regijo v osnovni (nemutirani) obliki - protein p53 ("varuh genoma") oz. gen *TP53* je pri raku eden najpogosteje mutiranih, proteinski namreč produkt kontrolira ključne točke v celičnem ciklu ter preprečuje delitev celic s poškodovanim genomom in ima s tem tumor-supresorsko vlogo, okvarjen protein pa to sposobnost okvarjeno
+* **zaporedje mRNA za človeški protein p53** in sicer táko, ki vsebuje celotno kodirajočo regijo v osnovni (nemutirani) obliki - protein p53 ("varuh genoma") oz. gen *TP53* je pri raku eden najpogosteje mutiranih, proteinski namreč produkt kontrolira ključne točke v celičnem ciklu ter preprečuje delitev celic s poškodovanim genomom in ima s tem tumor-supresorsko vlogo, okvarjen protein pa ima to sposobnost okvarjeno
   * vprašanje 1: Kolikšen delež zaporedja mRNA predstavlja kodirajoče zaporedje?
   * vrpašanje 2: Katera regija je daljša, 5' ali 3'-neprevedena regija? Je to pričakovano?
 * **zaporedje mRNA za protein p53 iz katerekoli glive**
